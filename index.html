@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>Raginel Jessica - Service de Débarras Professionnel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-top">
+                <div class="logo-container">
+                    <a href="#" class="logo">
+                        <img src="image/logottt-removebg-preview.png" alt="Logo Brillanceservices" class="logo-img">
+                        <div class="logo-text-container">
+                            <span class="logo-text">Brillance<span class="logo-highlight">services</span></span>
+                        </div>
+                    </a>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <nav>
+                <ul id="navMenu">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#galerie">Galerie</a></li>
+                    <li><a href="#avis">Avis Clients</a></li>
+                    <li><a href="#apropos">À propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero" id="accueil">
+        <div class="carousel-container">
+            <div class="carousel-slides">
+                <div class="slide active">
+                    <div class="slide-content">
+                        <h1>Service de Débarras Professionnel</h1>
+                        <p>Vider, trier, nettoyer - Je m'occupe de tout ! Service rapide et efficace dans un rayon d'environ 100km autour d'Annecy</p>
+                        <a href="#contact" class="btn">Devis gratuit sous 48h</a>
+                    </div>
+                    <div class="slide-overlay"></div>
+                </div>
+                <div class="slide">
+                    <div class="slide-content">
+                        <h1>Débarras complet de maisons et appartements</h1>
+                        <p>Vidage de maisons, appartements, caves et greniers après décès, déménagement ou succession</p>
+                        <a href="#services" class="btn">Nos services</a>
+                    </div>
+                    <div class="slide-overlay"></div>
+                </div>
+                <div class="slide">
+                    <div class="slide-content">
+                        <h1>Recyclage et décheterie professionnelle</h1>
+                        <p>Recyclage, décheterie professionnelle, valorisation des déchets - Une approche écologique et responsable</p>
+                        <a href="#apropos" class="btn">En savoir plus</a>
+                    </div>
+                    <div class="slide-overlay"></div>
+                </div>
+            </div>
+            
+            <div class="carousel-controls">
+                <button class="carousel-btn prev-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-btn next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            
+            <div class="carousel-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="services">
+        <div class="container">
+            <h2>Mes Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Débarras de maisons et d'appartements</h3>
+                    <p>Vidage complet de maisons, appartements, garages, caves et jardin après décès, déménagement ou succession.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-warehouse"></i>
+                    </div>
+                    <h3>Débarras de locaux</h3>
+                    <p>Vidage de locaux commerciaux, bureaux, entrepôts, greniers et caves.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-recycle"></i>
+                    </div>
+                    <h3>Tri et valorisation</h3>
+                    <p>Tri des objets, recyclage et valorisation des déchets. Don à des associations possible.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-broom"></i>
+                    </div>
+                    <h3>Nettoyage</h3>
+                    <p>Nettoyage complet des locaux après le débarras pour une remise en état immédiate.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Localisation Section -->
+    <section class="section-light" id="localisation">
+        <div class="container">
+            <h2>Localisation</h2>
+            <div class="localisation-content">
+                <div class="localisation-text">
+                    <h3>Je me déplace autour d'Annecy sur 100km dans la Haute-Savoie, l'Ain et la Savoie !</h3>
+                    <p>Intervention rapide et efficace dans toute la région. Contactez-moi pour vérifier ma disponibilité dans votre secteur.</p>
+                </div>
+                <div class="map-container">
+                    <div class="map-responsive">
+                        <iframe 
+                            src="https://www.google.com/maps/d/u/0/embed?mid=1UJ1akhhCiv0XfWdroDjgq-IiXvp56HU&ehbc=2E312F&noprof=1" 
+                            title="Carte de la zone d'intervention autour d'Annecy"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galerie Photos -->
+    <section id="galerie">
+        <div class="container">
+            <h2>Galerie Photos</h2>
+            <p class="text-center">Voici quelques exemples de mes réalisations.</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+
+                    <img src="image/ChatGPT Image 16 janv. 2026, 15_18_04.png" alt="Projet de débarras 1" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="image/WhatsApp Image 2027-01-15 at 16.42.04.jpeg" alt="Projet de débarras 2" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="image/WhatsApp Image 2028-01-15 at 16.42.04.jpeg" alt="Projet de débarras 3" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="image/WhatsApp Image 2029-01-15 at 16.42.04.jpeg" alt="Projet de débarras 4" loading="lazy">
+                </div>
+                           <!--en dessous il y a ecris gallery-item gallery-placeholder ajouter la photo que vous souhaitez inserer dans le dossier images et taper images/le lien de votre photo-->
+                <div class="gallery-item gallery-placeholder">
+                    <i class="fas fa-camera"></i>
+                    <p>Projet à venir</p>
+                </div>
+                <div class="gallery-item gallery-placeholder">
+                    <i class="fas fa-camera"></i>
+                    <p>Projet à venir</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Avis Clients Section -->
+    <section class="section-light" id="avis">
+        <div class="container">
+            <h2>Avis Clients</h2>
+            <div class="text-center">
+                <a href="#contact" class="btn">Nous contacter</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- À propos Section -->
+    <section id="apropos">
+        <div class="container">
+            <h2>À propos de l'entreprise</h2>
+            <div class="about-content">
+                <div class="about-text">
+<div class="logo-text-container">
+                            <span class="logo-text2">Brillance<span class="logo-highlight">services</span></span>
+                        </div>
+                    <p>Entreprise de débarras et de nettoyage, j'offre des services complets et personnalisés pour répondre à tous vos besoins. Que ce soit pour des maisons, des caves, des greniers, des jardins, le nettoyage de locaux ou la fin de chantier, je suis expérimentée et m'engage à fournir un travail soigné, efficace et respectueux de l'environnement.</p>
+                    <p>Faites confiance à mon savoir-faire pour un espace propre, désencombré et revitalisé. Je me déplace dans un rayon d'environ 100km autour d'Annecy (Haute-Savoie, Savoie et l'Ain).</p>
+                    <p>Contactez-moi pour un devis gratuit et personnalisé. Je suis à votre écoute pour répondre à vos besoins spécifiques. Devis gratuit sous 48h.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section-light" id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>Nom</h4>
+                        <p>Raginel Jessica</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>Téléphone</h4>
+                        <p><a href="tel:0786265582">07 86 26 55 82</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>Email</h4>
+                        <p>Brillanceservices@outlook.fr</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>Adresse</h4>
+                        <p>53 route de Paris<br>La Balme de Sillingy 74330</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>Zone d'intervention</h4>
+                        <p>Environ 100km autour d'Annecy<br>(Haute-Savoie, Savoie, Ain)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+       <footer>
+        <div class="footer-content">
+            <div class="footer-about">
+                <div class="logo">
+                    <img src="image/logottt-removebg-preview.png" alt="Logo Brillanceservices" class="logo-img">
+                    <span class="logo-text">Brillance<span class="logo-highlight">services</span></span>
+                </div>
+                <p>Service professionnel de débarras dans la région Haute-Savoie, l'Ain et la Savoie. Tri, recyclage et nettoyage inclus.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Liens rapides</h3>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#galerie">Galerie</a></li>
+                    <li><a href="#avis">Avis Clients</a></li>
+                    <li><a href="#apropos">À propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Coordonnées</h3>
+                <p><i class="fas fa-phone"></i> 07 86 26 55 82</p>
+                <p><i class="fas fa-map-marker-alt"></i> 53 route de Paris, La Balme de Sillingy 74330</p>
+                <p><i class="fas fa-map"></i> Intervention dans un rayon de 100km autour d'Annecy</p>
+                <p><i class="fas fa-envelope"></i> Brillanceservices@outlook.fr</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 Brillanceservices - Service de Débarras - SIRET: 99244379600014 - Tous droits réservés</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
