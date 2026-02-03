@@ -1,0 +1,7 @@
+# Sitemap accessible sans redirection
+/sitemap.xml /sitemap.xml 200
+
+# Forcer HTTPS et domaine principal (debarras-annecy.fr)
+https://www.debarras-annecy.fr/* https://debarras-annecy.fr/:splat 301
+http://debarras-annecy.fr/* https://debarras-annecy.fr/:splat 301
+http://www.debarras-annecy.fr/* https://debarras-annecy.fr/:splat 301
