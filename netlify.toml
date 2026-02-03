@@ -1,19 +1,6 @@
 [build]
   publish = "."
 
-# Servir le sitemap sans redirection
-[[redirects]]
-  from = "/sitemap.xml"
-  to = "/sitemap.xml"
-  status = 200
-
-# Forcer HTTPS + domaine principal (sans www)
-[[redirects]]
-  from = "http://www.debarras-annecy.fr/*"
-  to = "https://debarras-annecy.fr/:splat"
-  status = 301
-  force = true
-
 [[redirects]]
   from = "http://debarras-annecy.fr/*"
   to = "https://debarras-annecy.fr/:splat"
