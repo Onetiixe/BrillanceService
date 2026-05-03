@@ -135,11 +135,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // Fonction pour réinitialiser l'intervalle
     function resetInterval() {
         clearInterval(slideInterval);
-        slideInterval = setInterval(nextSlide, 5000);
+        slideInterval = setInterval(nextSlide, 25000);
     }
 
     // Démarrer le carousel automatique
-    slideInterval = setInterval(nextSlide, 5000);
+    slideInterval = setInterval(nextSlide, 25000);
 
     // Pause du carousel au survol
     const carouselContainer = document.querySelector('.carousel-container');
@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         carouselContainer.addEventListener('mouseleave', function() {
-            slideInterval = setInterval(nextSlide, 5000);
+            slideInterval = setInterval(nextSlide, 25000);
         });
     }
 });

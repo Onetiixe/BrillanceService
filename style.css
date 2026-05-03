@@ -305,25 +305,25 @@ nav ul li a:hover:after {
     z-index: 1;
 }
 
-/* Slide 1 - Image de cartons */
 .slide:nth-child(1) {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('image/https://images.unsplash.com/photo-1589923186741-b7d59d6b2c4c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80');
-    background-size: cover;
-    background-position: center;
+    background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("image/WhatsApp Image 2026-04-25 at 13.37.56.jpeg");
+    background-size: auto 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
-/* Slide 2 - Image de maison vide */
 .slide:nth-child(2) {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('image/https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80');
+    background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("image/WhatsApp Image 2026-01-15 at 16.42.04.jpeg");
     background-size: cover;
-    background-position: center;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
-/* Slide 3 - Image de recyclage */
 .slide:nth-child(3) {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('image/https://images.unsplash.com/photo-1589923188900-85dae523342b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80');
+    background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("image/dech-pro-brangeon.png");
     background-size: cover;
-    background-position: center;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .slide-content {
@@ -357,7 +357,6 @@ nav ul li a:hover:after {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, rgba(111, 128, 213, 0.6), rgba(13, 56, 136, 0.4));
     z-index: 1;
 }
 
